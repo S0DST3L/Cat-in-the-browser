@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(to bottom, #1a1a2e, #162447, #1f4068, #e43f5a);
+  color: #f0f0f0;
+  font-family: monospace;
+  padding: 20px;
+  white-space: pre;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+#cat {
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  color: #ffeb3b; /* cat color */
+  text-shadow: 2px 2px 5px #000; /* subtle glow */
+}
+
+#message {
+  color: #ffeb3b;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 20px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-family: monospace;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #ff6f61;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #ff3b2f;
+}
